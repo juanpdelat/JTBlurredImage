@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C04040CD1926BCAB008966AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04040CC1926BCAB008966AA /* Foundation.framework */; };
+		C04040CF1926BCAB008966AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04040CE1926BCAB008966AA /* CoreGraphics.framework */; };
+		C04040D11926BCAB008966AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04040D01926BCAB008966AA /* UIKit.framework */; };
+		C04040D71926BCAB008966AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C04040D51926BCAB008966AA /* InfoPlist.strings */; };
+		C04040D91926BCAB008966AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04040D81926BCAB008966AA /* main.m */; };
+		C04040DD1926BCAB008966AA /* JTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C04040DC1926BCAB008966AA /* JTAppDelegate.m */; };
+		C04040E01926BCAB008966AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04040DE1926BCAB008966AA /* Main.storyboard */; };
+		C04040E31926BCAB008966AA /* JTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04040E21926BCAB008966AA /* JTViewController.m */; };
+		C04040E51926BCAB008966AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04040E41926BCAB008966AA /* Images.xcassets */; };
+		C04040EC1926BCAB008966AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04040EB1926BCAB008966AA /* XCTest.framework */; };
+		C04040ED1926BCAB008966AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04040CC1926BCAB008966AA /* Foundation.framework */; };
+		C04040EE1926BCAB008966AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04040D01926BCAB008966AA /* UIKit.framework */; };
+		C04040F61926BCAB008966AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C04040F41926BCAB008966AA /* InfoPlist.strings */; };
+		C04040F81926BCAB008966AA /* JTBlurredImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04040F71926BCAB008966AA /* JTBlurredImageDemoTests.m */; };
+		C040410A1926C17A008966AA /* UIImage+BlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = C04041091926C17A008966AA /* UIImage+BlurEffect.m */; };
+		C040410D1926C307008966AA /* JTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C040410C1926C307008966AA /* JTSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C04040EF1926BCAB008966AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C04040C11926BCAB008966AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04040C81926BCAB008966AA;
+			remoteInfo = JTBlurredImageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C04040C91926BCAB008966AA /* JTBlurredImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTBlurredImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04040CC1926BCAB008966AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C04040CE1926BCAB008966AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C04040D01926BCAB008966AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C04040D41926BCAB008966AA /* JTBlurredImageDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTBlurredImageDemo-Info.plist"; sourceTree = "<group>"; };
+		C04040D61926BCAB008966AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C04040D81926BCAB008966AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C04040DA1926BCAB008966AA /* JTBlurredImageDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTBlurredImageDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C04040DB1926BCAB008966AA /* JTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTAppDelegate.h; sourceTree = "<group>"; };
+		C04040DC1926BCAB008966AA /* JTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTAppDelegate.m; sourceTree = "<group>"; };
+		C04040DF1926BCAB008966AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C04040E11926BCAB008966AA /* JTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTViewController.h; sourceTree = "<group>"; };
+		C04040E21926BCAB008966AA /* JTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTViewController.m; sourceTree = "<group>"; };
+		C04040E41926BCAB008966AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C04040EA1926BCAB008966AA /* JTBlurredImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTBlurredImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04040EB1926BCAB008966AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C04040F31926BCAB008966AA /* JTBlurredImageDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTBlurredImageDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C04040F51926BCAB008966AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C04040F71926BCAB008966AA /* JTBlurredImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTBlurredImageDemoTests.m; sourceTree = "<group>"; };
+		C04041081926C17A008966AA /* UIImage+BlurEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurEffect.h"; sourceTree = "<group>"; };
+		C04041091926C17A008966AA /* UIImage+BlurEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlurEffect.m"; sourceTree = "<group>"; };
+		C040410B1926C307008966AA /* JTSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSecondViewController.h; sourceTree = "<group>"; };
+		C040410C1926C307008966AA /* JTSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C04040C61926BCAB008966AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04040CF1926BCAB008966AA /* CoreGraphics.framework in Frameworks */,
+				C04040D11926BCAB008966AA /* UIKit.framework in Frameworks */,
+				C04040CD1926BCAB008966AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04040E71926BCAB008966AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04040EC1926BCAB008966AA /* XCTest.framework in Frameworks */,
+				C04040EE1926BCAB008966AA /* UIKit.framework in Frameworks */,
+				C04040ED1926BCAB008966AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C04040C01926BCAB008966AA = {
+			isa = PBXGroup;
+			children = (
+				C04040D21926BCAB008966AA /* JTBlurredImageDemo */,
+				C04040F11926BCAB008966AA /* JTBlurredImageDemoTests */,
+				C04040CB1926BCAB008966AA /* Frameworks */,
+				C04040CA1926BCAB008966AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C04040CA1926BCAB008966AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C04040C91926BCAB008966AA /* JTBlurredImageDemo.app */,
+				C04040EA1926BCAB008966AA /* JTBlurredImageDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C04040CB1926BCAB008966AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C04040CC1926BCAB008966AA /* Foundation.framework */,
+				C04040CE1926BCAB008966AA /* CoreGraphics.framework */,
+				C04040D01926BCAB008966AA /* UIKit.framework */,
+				C04040EB1926BCAB008966AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C04040D21926BCAB008966AA /* JTBlurredImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C04041011926BE32008966AA /* JTBlurredImageCategory */,
+				C04040DB1926BCAB008966AA /* JTAppDelegate.h */,
+				C04040DC1926BCAB008966AA /* JTAppDelegate.m */,
+				C04040DE1926BCAB008966AA /* Main.storyboard */,
+				C04040E11926BCAB008966AA /* JTViewController.h */,
+				C04040E21926BCAB008966AA /* JTViewController.m */,
+				C040410B1926C307008966AA /* JTSecondViewController.h */,
+				C040410C1926C307008966AA /* JTSecondViewController.m */,
+				C04040E41926BCAB008966AA /* Images.xcassets */,
+				C04040D31926BCAB008966AA /* Supporting Files */,
+			);
+			path = JTBlurredImageDemo;
+			sourceTree = "<group>";
+		};
+		C04040D31926BCAB008966AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C04040D41926BCAB008966AA /* JTBlurredImageDemo-Info.plist */,
+				C04040D51926BCAB008966AA /* InfoPlist.strings */,
+				C04040D81926BCAB008966AA /* main.m */,
+				C04040DA1926BCAB008966AA /* JTBlurredImageDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C04040F11926BCAB008966AA /* JTBlurredImageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C04040F71926BCAB008966AA /* JTBlurredImageDemoTests.m */,
+				C04040F21926BCAB008966AA /* Supporting Files */,
+			);
+			path = JTBlurredImageDemoTests;
+			sourceTree = "<group>";
+		};
+		C04040F21926BCAB008966AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C04040F31926BCAB008966AA /* JTBlurredImageDemoTests-Info.plist */,
+				C04040F41926BCAB008966AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C04041011926BE32008966AA /* JTBlurredImageCategory */ = {
+			isa = PBXGroup;
+			children = (
+				C04041081926C17A008966AA /* UIImage+BlurEffect.h */,
+				C04041091926C17A008966AA /* UIImage+BlurEffect.m */,
+			);
+			name = JTBlurredImageCategory;
+			path = ../../JTBlurredImageCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C04040C81926BCAB008966AA /* JTBlurredImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04040FB1926BCAB008966AA /* Build configuration list for PBXNativeTarget "JTBlurredImageDemo" */;
+			buildPhases = (
+				C04040C51926BCAB008966AA /* Sources */,
+				C04040C61926BCAB008966AA /* Frameworks */,
+				C04040C71926BCAB008966AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTBlurredImageDemo;
+			productName = JTBlurredImageDemo;
+			productReference = C04040C91926BCAB008966AA /* JTBlurredImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C04040E91926BCAB008966AA /* JTBlurredImageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04040FE1926BCAB008966AA /* Build configuration list for PBXNativeTarget "JTBlurredImageDemoTests" */;
+			buildPhases = (
+				C04040E61926BCAB008966AA /* Sources */,
+				C04040E71926BCAB008966AA /* Frameworks */,
+				C04040E81926BCAB008966AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C04040F01926BCAB008966AA /* PBXTargetDependency */,
+			);
+			name = JTBlurredImageDemoTests;
+			productName = JTBlurredImageDemoTests;
+			productReference = C04040EA1926BCAB008966AA /* JTBlurredImageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C04040C11926BCAB008966AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = juandelatorre;
+				TargetAttributes = {
+					C04040E91926BCAB008966AA = {
+						TestTargetID = C04040C81926BCAB008966AA;
+					};
+				};
+			};
+			buildConfigurationList = C04040C41926BCAB008966AA /* Build configuration list for PBXProject "JTBlurredImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C04040C01926BCAB008966AA;
+			productRefGroup = C04040CA1926BCAB008966AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C04040C81926BCAB008966AA /* JTBlurredImageDemo */,
+				C04040E91926BCAB008966AA /* JTBlurredImageDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C04040C71926BCAB008966AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04040E51926BCAB008966AA /* Images.xcassets in Resources */,
+				C04040D71926BCAB008966AA /* InfoPlist.strings in Resources */,
+				C04040E01926BCAB008966AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04040E81926BCAB008966AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04040F61926BCAB008966AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C04040C51926BCAB008966AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04040DD1926BCAB008966AA /* JTAppDelegate.m in Sources */,
+				C040410A1926C17A008966AA /* UIImage+BlurEffect.m in Sources */,
+				C04040E31926BCAB008966AA /* JTViewController.m in Sources */,
+				C040410D1926C307008966AA /* JTSecondViewController.m in Sources */,
+				C04040D91926BCAB008966AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04040E61926BCAB008966AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04040F81926BCAB008966AA /* JTBlurredImageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C04040F01926BCAB008966AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04040C81926BCAB008966AA /* JTBlurredImageDemo */;
+			targetProxy = C04040EF1926BCAB008966AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C04040D51926BCAB008966AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C04040D61926BCAB008966AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C04040DE1926BCAB008966AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C04040DF1926BCAB008966AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C04040F41926BCAB008966AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C04040F51926BCAB008966AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C04040F91926BCAB008966AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C04040FA1926BCAB008966AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C04040FC1926BCAB008966AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTBlurredImageDemo/JTBlurredImageDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTBlurredImageDemo/JTBlurredImageDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C04040FD1926BCAB008966AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTBlurredImageDemo/JTBlurredImageDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTBlurredImageDemo/JTBlurredImageDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C04040FF1926BCAB008966AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JTBlurredImageDemo.app/JTBlurredImageDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTBlurredImageDemo/JTBlurredImageDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JTBlurredImageDemoTests/JTBlurredImageDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C04041001926BCAB008966AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JTBlurredImageDemo.app/JTBlurredImageDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTBlurredImageDemo/JTBlurredImageDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTBlurredImageDemoTests/JTBlurredImageDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C04040C41926BCAB008966AA /* Build configuration list for PBXProject "JTBlurredImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04040F91926BCAB008966AA /* Debug */,
+				C04040FA1926BCAB008966AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04040FB1926BCAB008966AA /* Build configuration list for PBXNativeTarget "JTBlurredImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04040FC1926BCAB008966AA /* Debug */,
+				C04040FD1926BCAB008966AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C04040FE1926BCAB008966AA /* Build configuration list for PBXNativeTarget "JTBlurredImageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04040FF1926BCAB008966AA /* Debug */,
+				C04041001926BCAB008966AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C04040C11926BCAB008966AA /* Project object */;
+}
